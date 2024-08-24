@@ -7,7 +7,28 @@ from utils_bot import *
 from Adarsh import StartTime
 
 
-START_TEXT = """ ʏᴏᴜʀ  ᴛᴇʟᴇɢʀᴀᴍ  ᴅᴄ  ɪꜱ : `{}`  """
+START_TEXT = """ <b>ʏᴏᴜʀ  ᴛᴇʟᴇɢʀᴀᴍ  ᴅᴄ  ɪꜱ : `{}`
+【 I AM FILE TO STREAM KANHA 💖 BOT 】
+
+【💕❤️ MY FATHER❤️💕 】
+   ❤️ KANHA MEENA KUWAL ⚡
+  <a href=https://t.me/Chatkanhabot>CONTACT ☎️ NOW</a>
+     
+╔══════════════════╗
+ [📌 JOIN MOVIE GROUP 🎭 ] 
+   👇👇👇👇👇👇👇👇👇
+<a href=https://t.me/SONICKUWALMOVIE>JOIN MOVIE 🎥 GROUP</a>
+
+ [📌 JOIN UPDATE CHANNEL ⚡]
+👇👇👇👇👇👇👇👇
+<a href=https://t.me/Sonickuwalupdate>JOIN UPDATED CHANNEL</a>
+╚══════════════════╝
+
+I AM FILE TO STREAM KANHA BOT 💖 
+
+NOTE :- LINK NEVER DELETE 
+
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/Chatkanhabot'>❤️ sonic kuwal ❤️</a></b>"""
 
 
 @StreamBot.on_message(filters.regex("owner😎"))
@@ -17,12 +38,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="ɪ  ᴀᴍ  ᴍᴀɪɴᴛᴀɪɴᴇᴅ  ʙʏ  [ʀᴀʜᴜʟ](https://telegram.me/CodeXBro)",
+                    text="ɪ  ᴀᴍ  ᴍᴀɪɴᴛᴀɪɴᴇᴅ  ʙʏ  [Sonickuwalupdate](https://telegram.me/Sonickuwalupdate)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ   🧑‍💻", url=f"https://youtube.com/@RahulReviews")
+                                InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ   🧑‍💻", url=f"https://youtube.com/@sonickuwal")
                             ]
                         ]
                     ),
@@ -33,15 +54,15 @@ async def maintainers(b,m):
 @StreamBot.on_message(filters.regex("follow❤️"))
 async def follow_user(b,m):
     btn = [[
-        InlineKeyboardButton(text="ᴛᴡɪᴛᴛᴇʀ", url="https://twitter.com/RahulReviewsYT"),
-        InlineKeyboardButton(text="ɪɴꜱᴛᴀɢʀᴀᴍ", url="https://instagram.com/RahulReviewsYT")
+        InlineKeyboardButton(text="ᴛᴡɪᴛᴛᴇʀ", url="https://telegram.me/Sonickuwalupdate"),
+        InlineKeyboardButton(text="ɪɴꜱᴛᴀɢʀᴀᴍ", url="https://telegram.me/Sonickuwalupdate")
         ],[
-        InlineKeyboardButton(text="ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴄʜᴀɴɴᴇʟ", url="https://telegram.me/RahulReviews")
+        InlineKeyboardButton(text="ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴄʜᴀɴɴᴇʟ", url="https://telegram.me/Sonickuwalupdate")
     ],[
-        InlineKeyboardButton(text="ꜱᴜʙꜱᴄʀɪʙᴇ  ᴏᴜʀ  ʏᴛ  ᴄʜᴀɴɴᴇʟ", url="https://youtube.com/@RahulReviews")
+        InlineKeyboardButton(text="ꜱᴜʙꜱᴄʀɪʙᴇ  ᴏᴜʀ  ʏᴛ  ᴄʜᴀɴɴᴇʟ", url="https://youtube.com/@sonickuwal")
     ],[
-        InlineKeyboardButton(text="ɢɪᴛʜᴜʙ", url="https://github.com/CodeXBots"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://telegram.me/RahulReviewsYT")
+        InlineKeyboardButton(text="ɢɪᴛʜᴜʙ", url="https://github.com/Sonickuwal"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://telegram.me/Sonickuwalupdate")
     ]]
     try:
        await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
@@ -60,8 +81,8 @@ async def start(b,m):
     except Exception:
                 await StreamBot.send_photo(
                     chat_id=m.chat.id,
-                    photo='https://graph.org/file/8a955c85e785a5d95ba0c.jpg',
-                    caption="<b><blockquote>❤️‍🔥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐟𝐨𝐫 𝐬𝐡𝐨𝐰𝐢𝐧𝐠 𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭 𝐢𝐧 𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</blockquote>\n\n<b><i>💞  ɪꜰ ʏᴏᴜ ʟɪᴋᴇ ᴏᴜʀ ʙᴏᴛ ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ₹𝟷𝟶, ₹𝟸𝟶, ₹𝟻𝟶, ₹𝟷𝟶𝟶, ᴇᴛᴄ.</i></b>\n\n❣️ 𝐷𝑜𝑛𝑎𝑡𝑖𝑜𝑛𝑠 𝑎𝑟𝑒 𝑟𝑒𝑎𝑙𝑙𝑦 𝑎𝑝𝑝𝑟𝑒𝑐𝑖𝑎𝑡𝑒𝑑 𝑖𝑡 ℎ𝑒𝑙𝑝𝑠 𝑖𝑛 𝑏𝑜𝑡 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡\n\n💖 𝐔𝐏𝐈 𝐈𝐃 : <code>RahulReviews@sbi</code>")
+                    photo='https://graph.org/file/95a9fc09cc310c0c8cd6f.jpg',
+                    caption="<b><blockquote>❤️‍🔥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐟𝐨𝐫 𝐬𝐡𝐨𝐰𝐢𝐧𝐠 𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭 𝐢𝐧 𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</blockquote>\n\n<b><i>💞  ɪꜰ ʏᴏᴜ ʟɪᴋᴇ ᴏᴜʀ ʙᴏᴛ ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ₹𝟷𝟶, ₹𝟸𝟶, ₹𝟻𝟶, ₹𝟷𝟶𝟶, ᴇᴛᴄ.</i></b>\n\n❣️ 𝐷𝑜𝑛𝑎𝑡𝑖𝑜𝑛𝑠 𝑎𝑟𝑒 𝑟𝑒𝑎𝑙𝑙𝑦 𝑎𝑝𝑝𝑟𝑒𝑐𝑖𝑎𝑡𝑒𝑑 𝑖𝑡 ℎ𝑒𝑙𝑝𝑠 𝑖𝑛 𝑏𝑜𝑡 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡\n\n💖 Content bot  : <code>@Chatkanhabot</code>")
 
     
     
