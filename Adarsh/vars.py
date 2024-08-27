@@ -11,7 +11,7 @@ class Var(object):
     API_ID = int(getenv('API_ID', '20945078'))
     API_HASH = str(getenv('API_HASH', '93f6b8ce4bb0ab61b4c7e42187f2aa64'))
     PICS = (environ.get('PICS','https://graph.org/file/95a9fc09cc310c0c8cd6f.jpg')).split()
-    BOT_TOKEN = str(getenv('BOT_TOKEN', '6785205860:AAF8ALVabwc4pvTF0JRNJoNkzDObx-QkciA'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', ''))
     name = str(getenv('name', 'NobitaStreamBot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
